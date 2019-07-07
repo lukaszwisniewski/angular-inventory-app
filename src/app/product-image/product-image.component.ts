@@ -7,8 +7,7 @@ import { Product } from 'src/app/product.model';
 })
 export class ProductImageComponent {
 
-  @Input() product: Product[];
+  @Input() product: Product;
   @HostBinding('attr.class') cssClass = 'ui small image';
 
-  constructor() {  }
 }
